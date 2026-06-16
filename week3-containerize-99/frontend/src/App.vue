@@ -145,7 +145,7 @@ onMounted(fetchProducts)
           <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
         </div>
       </div>
-      <button class="btn-add" @click="openAdd">+ เพิ่มสินค้า</button>
+      <button class="btn-add" @click="openAdd">+ เพิ่มสินค้านะจ๊ะ</button>
     </header>
 
     <main class="main">
@@ -156,7 +156,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-green">📦</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#059669">{{ stats.total }}</div>
-            <div class="stat-label">สินค้าทั้งหมด</div>
+            <div class="stat-label">สินค้าทั้งหมดกดดูเอาไม่ต้องทักมาถามขี้เกียดตอบ</div>
           </div>
         </div>
         <div class="stat-card">
@@ -170,7 +170,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-amber">📊</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#d97706">{{ stats.totalItems.toLocaleString() }}</div>
-            <div class="stat-label">จำนวนสต็อกรวม</div>
+            <div class="stat-label">จำนวนสต็อกรวมของน้องฟิล์ม</div>
           </div>
         </div>
         <div class="stat-card">
@@ -308,7 +308,7 @@ onMounted(fetchProducts)
     <div class="overlay" v-if="confirmDelete" @click.self="confirmDelete = null">
       <div class="modal confirm">
         <div class="confirm-icon">🗑️</div>
-        <div class="confirm-title">ยืนยันการลบสินค้า</div>
+        <div class="confirm-title">ลบสินค้าโว้ย</div>
         <div class="confirm-desc">
           คุณต้องการลบ <strong>{{ confirmDelete?.name }}</strong> ออกจากระบบหรือไม่?<br>
           <span style="color:#dc2626">การกระทำนี้ไม่สามารถย้อนกลับได้</span>
@@ -412,7 +412,7 @@ onMounted(fetchProducts)
   display: inline-block; padding: .2rem .65rem;
   border-radius: 20px; font-size: .72rem; font-weight: 700; margin-bottom: .6rem;
 }
-.c-elec  { background: #dbeafe; color: #1e40af; }
+.c-elec  { background: #dbeafe; color: #0fd4b0; }
 .c-cloth { background: #fce7f3; color: #9d174d; }
 .c-foot  { background: #f3e8ff; color: #6b21a8; }
 .c-food  { background: #fef3c7; color: #92400e; }
@@ -440,7 +440,7 @@ onMounted(fetchProducts)
 .stock-fill  { height: 100%; border-radius: 3px; transition: width .4s ease; min-width: 4px; }
 .stock-fill.out  { background: #d1d5db; width: 2% !important; }
 .stock-fill.low  { background: #dc2626; }
-.stock-fill.mid  { background: #f59e0b; }
+.stock-fill.mid  { background: #e5b461; }
 .stock-fill.high { background: #10b981; }
 
 .card-footer {
