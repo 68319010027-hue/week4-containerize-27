@@ -308,7 +308,7 @@ onMounted(fetchProducts)
     <div class="overlay" v-if="confirmDelete" @click.self="confirmDelete = null">
       <div class="modal confirm">
         <div class="confirm-icon">🗑️</div>
-        <div class="confirm-title">ยืนยันการลบสินค้า</div>
+        <div class="confirm-title">ลบสินค้าโว้ย</div>
         <div class="confirm-desc">
           คุณต้องการลบ <strong>{{ confirmDelete?.name }}</strong> ออกจากระบบหรือไม่?<br>
           <span style="color:#dc2626">การกระทำนี้ไม่สามารถย้อนกลับได้</span>
