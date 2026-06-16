@@ -412,7 +412,7 @@ onMounted(fetchProducts)
   display: inline-block; padding: .2rem .65rem;
   border-radius: 20px; font-size: .72rem; font-weight: 700; margin-bottom: .6rem;
 }
-.c-elec  { background: #dbeafe; color: #1e40af; }
+.c-elec  { background: #dbeafe; color: #0fd4b0; }
 .c-cloth { background: #fce7f3; color: #9d174d; }
 .c-foot  { background: #f3e8ff; color: #6b21a8; }
 .c-food  { background: #fef3c7; color: #92400e; }
