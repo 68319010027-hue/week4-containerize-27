@@ -170,7 +170,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-amber">📊</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#d97706">{{ stats.totalItems.toLocaleString() }}</div>
-            <div class="stat-label">จำนวนสต็อกรวม</div>
+            <div class="stat-label">จำนวนสต็อกรวมของน้องฟิล์ม</div>
           </div>
         </div>
         <div class="stat-card">
