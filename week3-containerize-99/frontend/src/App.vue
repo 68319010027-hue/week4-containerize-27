@@ -145,7 +145,7 @@ onMounted(fetchProducts)
           <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
         </div>
       </div>
-      <button class="btn-add" @click="openAdd">+ เพิ่มสินค้า</button>
+      <button class="btn-add" @click="openAdd">+ เพิ่มสินค้านะจ๊ะ</button>
     </header>
 
     <main class="main">
@@ -440,7 +440,7 @@ onMounted(fetchProducts)
 .stock-fill  { height: 100%; border-radius: 3px; transition: width .4s ease; min-width: 4px; }
 .stock-fill.out  { background: #d1d5db; width: 2% !important; }
 .stock-fill.low  { background: #dc2626; }
-.stock-fill.mid  { background: #f59e0b; }
+.stock-fill.mid  { background: #e5b461; }
 .stock-fill.high { background: #10b981; }
 
 .card-footer {
