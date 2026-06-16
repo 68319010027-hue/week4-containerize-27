@@ -156,7 +156,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-green">📦</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#059669">{{ stats.total }}</div>
-            <div class="stat-label">สินค้าทั้งหมด</div>
+            <div class="stat-label">สินค้าทั้งหมดกดดูเอาไม่ต้องทักมาถามขี้เกียดตอบ</div>
           </div>
         </div>
         <div class="stat-card">
