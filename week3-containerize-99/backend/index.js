@@ -9,6 +9,16 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+// เพิ่ม async หน้า (req, res) ตรงนี้ครับ
+app.get('/', async (req, res) => {
+  try {
+    await pool.query('SELECT 1');
+    res.json({ status: 'Mabow', service: 'StockPro API', timestamp: new Date() });
+  } catch (err) {
+    res.status(503).json({ status: 'error', message: err.message });
+  }
+});
+
 app.get('/health', async (req, res) => {
   try {
     await pool.query('SELECT 1');
